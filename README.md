@@ -30,7 +30,7 @@ We need to use instances for isomorphic applications, to have a unique store/act
 
 ## Async data-fetching
 
-Alt-resolver is the magic thing about the boilerplate, it will be our tool for resolving promises (data-fetching) before server side rendering.
+Alt-resolver will be our tool for resolving promises (data-fetching) before server side rendering.
 
 Wrap data-fetching requests from actions into promises and send them to `altResolver` like:
 
@@ -50,16 +50,12 @@ fetch() {
 }
 ```
 
-Call the fetch action from component in the `componentWillMount` method:
+Call the fetch action from `componentWillMount` method:
 
 ```
-static propTypes: {
-  flux: React.PropTypes.object.isRequired
-}
-
 componentWillMount() {
-  const usersActions = this.props.flux.getActions('users');
-  return usersActions.fetch();
+  const postsActions = this.props.flux.getActions('posts');
+  return postsActions.fetch();
 }
 ```
 
