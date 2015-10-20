@@ -2,11 +2,14 @@ export default {
   messages: {
     header: {
       'posts': 'Feed',
-      'guides': 'Groups',
-      'protected': 'Protected'
+      'groups': 'Groups',
+      'profile': 'Profile'
     },
     groups: {
       'page-title': 'Groups'
+    },
+    profile: {
+      'page-title': 'Profile'
     },
     protected: {
       'page-title': 'Protected Page'
@@ -22,6 +25,7 @@ export default {
       'posts': '/feed',
       'post': '/post/:id',
       'groups': '/groups',
+      'profile': '/profile',
       'protected': '/protected',
       'login-info': '/login-info'
     }
