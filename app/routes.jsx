@@ -10,10 +10,6 @@ export default (
         component: require('./components/posts')
       }) }
       { generateRoute({
-        paths: ['/protected', '/protege'],
-        component: require('./components/protected')
-      }) }
-      { generateRoute({
         paths: ['/groups'],
         component: require('./components/groups')
       }) }
@@ -22,8 +18,12 @@ export default (
         component: require('./components/post')
       }) }
       { generateRoute({
-        paths: ['/login-info', '/info-client'],
-        component: require('./pages/login-info')
+        paths: ['/profile'],
+        component: require('./components/profile')
+      }) }
+      { generateRoute({
+        paths: ['/protected'],
+        component: require('./components/protected')
       }) }
       <Route path='*' component={ require('./pages/not-found') } />
     </Route>
