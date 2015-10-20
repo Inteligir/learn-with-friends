@@ -1,0 +1,58 @@
+@import 'normalize.css/normalize';
+
+@import './_variables';
+
+@import './header';
+
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+  html is set to 62.5% so that all the REM measurements are based on 10px sizing.
+  So basically 1.5rem = 15px :)
+*/
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.3em;
+  line-height: 1.6;
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--dashboardBg);
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Reset lists */
+ol, ul { margin: 0; padding: 0; list-style: none; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.placeholder {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.no-select {
+  user-select: none;
+}
+
+/* Links
+/––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+a {
+  color: var(--brandPrimary);
+  text-decoration: none;
+}
