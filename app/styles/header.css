@@ -7,10 +7,6 @@
   flex-wrap: no-wrap;
 }
 
-.app__header-navbar {
-
-}
-
 .app__header-navbar > a {
   color: #606466;
   padding-left: 30px;
