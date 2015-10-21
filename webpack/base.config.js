@@ -16,13 +16,6 @@ module.exports = {
     publicPath: '/assets/'
   },
   module: {
-    preLoaders: [
-      {
-        test: JS_REGEX,
-        exclude: /node_modules/,
-        loader: 'eslint'
-      }
-    ],
     loaders: [
       {test: /\.json$/, exclude: /node_modules/, loader: 'json'},
       {test: JS_REGEX, exclude: /node_modules/, loader: 'babel'}
