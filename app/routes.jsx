@@ -7,14 +7,14 @@ export default (
     <Route component={ require('./components/app') }>
       { generateRoute({
         paths: ['/', '/feed'],
-        component: require('./components/posts')
+        component: require('./components/feed')
       }) }
       { generateRoute({
         paths: ['/groups'],
         component: require('./components/groups')
       }) }
       { generateRoute({
-        paths: ['/post/:id', '/post/:id'],
+        paths: ['/feed/:id'],
         component: require('./components/post')
       }) }
       { generateRoute({

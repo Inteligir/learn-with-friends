@@ -1,7 +1,7 @@
 export default {
   messages: {
     header: {
-      'posts': 'Feed',
+      'feed': 'Feed',
       'groups': 'Groups',
       'profile': 'Profile'
     },
@@ -18,12 +18,12 @@ export default {
       'page-title': 'Post - {title}',
       'not-found-page-title': 'Post not found'
     },
-    posts: {
+    feed: {
       'page-title': 'Feed'
     },
     routes: {
-      'posts': '/feed',
-      'post': '/post/:id',
+      'feed': '/feed',
+      'post': '/feed/:id',
       'groups': '/groups',
       'profile': '/profile',
       'protected': '/protected',

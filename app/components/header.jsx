@@ -56,8 +56,8 @@ class Header extends Component {
           <nav className='app__header-navbar'>
             <Link
               activeClassName='active'
-              to='/'>
-              { this._getIntlMessage('header.posts') }
+              to={ this._getIntlMessage('routes.feed') }>
+              { this._getIntlMessage('header.feed') }
             </Link>
             <Link
               activeClassName='active'
