@@ -1,4 +1,5 @@
 import React, { Component, PropTypes } from 'react';
+
 import { Link } from 'react-router';
 import { IntlMixin } from 'react-intl';
 import { replaceParams } from 'utils/localized-routes';
@@ -16,10 +17,6 @@ class Posts extends Component {
     .getState()
 
   componentWillMount() {
-    this.props.flux
-      .getActions('page-title')
-      .set(this._getIntlMessage('posts.page-title'));
-
     this.props.flux
       .getActions('posts')
       .fetch();
@@ -69,37 +66,35 @@ class Posts extends Component {
     );
   }
 
-  // <table className='app--posts'>
-  //   <thead>
-  //     <tr>
-  //       <th>
-  //         { this._getIntlMessage('posts.email') }
-  //       </th>
-  //       <th colSpan='2'>
-  //         { this._getIntlMessage('posts.actions') }
-  //       </th>
-  //     </tr>
-  //   </thead>
-  //   <tbody>
-  //     {
-  //       this.state.posts
-  //         .map(this.renderPost)
-  //     }
-  //   </tbody>
-  // </table>
-  // <p className='text-center'>
-  //   <button
-  //     className='add--button'
-  //     onClick={ this.props.flux.getActions('posts').add }>
-  //     { this._getIntlMessage('posts.add') }
-  //   </button>
-  // </p>
-
   render() {
     return (
-      <section>
-        <h1>Posts</h1>
-      </section>
+      <div>
+        <table className='app--posts'>
+          <thead>
+            <tr>
+              <th>
+                { this._getIntlMessage('posts.email') }
+              </th>
+              <th colSpan='2'>
+                { this._getIntlMessage('posts.actions') }
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {
+              this.state.posts
+                .map(this.renderPost)
+            }
+          </tbody>
+        </table>
+        <p className='text-center'>
+          <button
+            className='add--button'
+            onClick={ this.props.flux.getActions('posts').add }>
+            { this._getIntlMessage('posts.add') }
+          </button>
+        </p>
+      </div>
     );
   }
 
