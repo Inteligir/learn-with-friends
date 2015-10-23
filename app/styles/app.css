@@ -1,8 +1,10 @@
 @import 'normalize.css/normalize';
-
 @import './_variables';
 
-@import './header';
+@import './components/header';
+@import './components/navtabs';
+
+@import './pages/feed';
 
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
