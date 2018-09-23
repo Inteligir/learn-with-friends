@@ -38,7 +38,7 @@
     "server/node_modules"
   ],
   "devDependencies": {
-    "ajv": "6.0.0",
+    "ajv": "6.5.4",
     "babel-cli": "6.26.0",
     "babel-eslint": "9.0.0",
     "concurrently": "4.0.1",
