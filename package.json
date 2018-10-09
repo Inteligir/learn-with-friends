@@ -58,7 +58,7 @@
     "evergreen-ui": "4.0.0-41",
     "express": "4.16.3",
     "express-async-errors": "3.0.0",
-    "helmet": "3.13.0",
+    "helmet": "3.14.0",
     "intersection-observer": "0.5.0",
     "lodash": "4.17.11",
     "migrate-mongoose": "3.2.2",
