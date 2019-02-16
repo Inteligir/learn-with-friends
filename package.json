@@ -49,7 +49,7 @@
     "module-alias": "2.2.0",
     "next": "8.0.1",
     "nprogress": "0.2.0",
-    "polished": "2.3.3",
+    "polished": "3.0.0",
     "prisma-binding": "2.3.2",
     "prisma-client-lib": "1.26.6",
     "prop-types": "15.7.2",
