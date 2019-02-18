@@ -41,7 +41,7 @@
     "env-cmd": "8.0.2",
     "express-async-errors": "3.1.1",
     "graphql-yoga": "1.17.4",
-    "graphql-shield": "5.2.0",
+    "graphql-shield": "5.3.0",
     "helmet": "3.15.1",
     "isomorphic-unfetch": "3.0.0",
     "jsonwebtoken": "8.4.0",
