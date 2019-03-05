@@ -90,7 +90,7 @@
     "nodemon": "1.18.10",
     "prettier": "1.16.4",
     "pretty-quick": "1.10.0",
-    "puppeteer": "1.12.2",
+    "puppeteer": "1.13.0",
     "react-test-renderer": "16.8.2"
   }
 }
