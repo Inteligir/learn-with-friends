@@ -33,7 +33,7 @@
     "setupTestFrameworkScriptFile": "./tests/setup.js"
   },
   "dependencies": {
-    "adorable-avatars": "0.2.2",
+    "adorable-avatars": "0.3.0",
     "apollo-boost": "0.1.28",
     "aws-sdk": "2.407.0",
     "bcrypt": "3.0.4",
