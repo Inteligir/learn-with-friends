@@ -89,7 +89,7 @@
     "jest": "24.1.0",
     "nodemon": "1.18.10",
     "prettier": "1.16.4",
-    "pretty-quick": "1.10.0",
+    "pretty-quick": "1.11.0",
     "puppeteer": "1.12.2",
     "react-test-renderer": "16.8.3"
   }
