@@ -71,7 +71,7 @@
     "@storybook/addon-notes": "4.1.13",
     "@storybook/addon-viewport": "4.1.13",
     "@storybook/react": "4.1.13",
-    "babel-eslint": "10.0.1",
+    "babel-eslint": "10.0.2",
     "babel-plugin-module-resolver": "3.2.0",
     "babel-plugin-styled-components": "1.10.0",
     "eslint": "5.14.1",
