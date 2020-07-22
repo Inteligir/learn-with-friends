@@ -41,7 +41,7 @@
     "isomorphic-unfetch": "^3.0.0",
     "jsonwebtoken": "^8.5.1",
     "next": "^9.4.4",
-    "nexus": "^0.24.2",
+    "nexus": "^0.25.0",
     "nexus-plugin-prisma": "^0.10.0",
     "react": "^16.13.1",
     "react-apollo": "^3.1.5",
