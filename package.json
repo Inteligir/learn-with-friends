@@ -42,7 +42,7 @@
     "jsonwebtoken": "^8.5.1",
     "next": "^9.4.4",
     "nexus": "^0.24.2",
-    "nexus-plugin-prisma": "^0.10.0",
+    "nexus-plugin-prisma": "^0.16.1",
     "react": "^16.13.1",
     "react-apollo": "^3.1.5",
     "react-dom": "^16.13.1",
