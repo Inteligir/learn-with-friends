@@ -37,7 +37,7 @@
     "apollo-link-http": "^1.5.17",
     "apollo-link-schema": "^1.2.5",
     "bcrypt": "^5.0.0",
-    "graphql-tag": "^2.10.3",
+    "graphql-tag": "^2.10.4",
     "isomorphic-unfetch": "^3.0.0",
     "jsonwebtoken": "^8.5.1",
     "next": "^9.4.4",
